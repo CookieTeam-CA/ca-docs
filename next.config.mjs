@@ -6,6 +6,10 @@ const withMDX = createMDX();
 const config = {
   output: 'export',
   reactStrictMode: true,
+  basePath: '/ca-docs',
+  images: {
+    unoptimized: true,
+  },
 };
 
 export default withMDX(config);
