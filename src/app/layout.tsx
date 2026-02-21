@@ -6,6 +6,12 @@ const inter = Inter({
   subsets: ['latin'],
 });
 
+export const metadata = {
+  icons: {
+    icon: '/assets/favicon.ico',
+  },
+};
+
 export default function Layout({ children }: LayoutProps<'/'>) {
   return (
     <html lang="en" className={inter.className} suppressHydrationWarning>

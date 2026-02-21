@@ -1,0 +1,50 @@
+---
+title: Shopping Bereich
+description: So erstellst du deinen eigenen Spieler-Shop.
+---
+
+import { Step, Steps } from 'fumadocs-ui/components/steps';
+
+# 🛒 Shopping-Bereich
+
+Der Shopping-Bereich ist der zentrale Ort für Spieler-Shops auf dem Server.
+
+<Callout type="info">
+**Hinweis:** Shops **müssen nicht zwingend** im Shopping-Bereich gebaut werden, werden dort aber bevorzugt platziert, um die Erreichbarkeit zu fördern.
+</Callout>
+
+## 📍 Standort
+Der Shopping-Bereich befindet sich bei den Koordinaten: **`X: 0 Y: 63 Z: 500`**
+Er bildet einen **Kreis mit einem Radius von 100 Blöcken**. Spieler dürfen diesen Bereich bei Bedarf **nach außen hin erweitern**.
+
+## 🏗️ Einen Shop erstellen
+Damit dein Shop als solcher gilt, musst du ein **erkennbares Gebäude oder eine strukturierte Fläche** bauen – nicht einfach nur ein Fass in der Landschaft!
+
+### 🛠️ Schritt-für-Schritt-Anleitung:
+
+<Steps>
+  <Step>
+    **Platziere ein Fass (Barrel)** an der gewünschten Stelle.
+  </Step>
+  <Step>
+    **Schau direkt auf das Fass** und gib folgenden Befehl ein:  
+    ```bash
+    /ishop create
+    ```
+  </Step>
+  <Step>
+    **Rechtsklicke auf das Fass**, um den Shop zu konfigurieren.
+  </Step>
+  <Step>
+    **Richte dein Inventar ein:** Ein Menü öffnet sich.
+    - **Linke Seite:** Die Items, die du verkaufen möchtest.
+    - **Rechte Seite:** Die Items, die du als Bezahlung akzeptierst.
+  </Step>
+  <Step>
+    **Befülle den Shop:** Ganz oben findest du ein Item namens **`Stock`**.
+    Klicke es an, um deinen Shop mit Items zu befüllen. Hier landen auch automatisch alle eingegangenen Zahlungen.
+  </Step>
+</Steps>
+
+## 📜 Shop-Regeln
+Alle Regeln für Shops findest du hier:(/rules#🏪-shop-bereich-regeln)

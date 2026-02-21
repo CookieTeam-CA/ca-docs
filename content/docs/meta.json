@@ -1,0 +1,26 @@
+{
+  "title": "Dokumentation",
+  "pages": [
+    "index",
+    "rules",
+    "changelog",
+    "mods",
+    "faq",
+    "---Features---",
+    "features/claim",
+    "features/dynrender",
+    "features/graves",
+    "features/image",
+    "features/map",
+    "features/mobheads",
+    "features/shop",
+    "features/sit",
+    "features/stats",
+    "features/stattrack",
+    "features/status",
+    "features/voicechat",
+    "---Items---",
+    "items/cleaver",
+    "items/katana"
+  ]
+}
