@@ -1,5 +1,7 @@
 {
-  "title": "Dokumentation",
+  "title": "CookieAttack 5",
+  "description": "Beendet",
+  "root": true,
   "pages": [
     "index",
     "rules",

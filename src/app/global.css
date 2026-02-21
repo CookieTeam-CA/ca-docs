@@ -1,3 +1,13 @@
 @import 'tailwindcss';
 @import 'fumadocs-ui/css/neutral.css';
 @import 'fumadocs-ui/css/preset.css';
+
+.dark {
+  --color-fd-primary: #FDA929;
+  --color-fd-primary-foreground: #000000;
+}
+
+.light {
+  --color-fd-primary: #ff9900;
+  --color-fd-primary-foreground: #000000;
+}
